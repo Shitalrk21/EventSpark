@@ -1,0 +1,101 @@
+.commonIcons {
+  font-size: 40px;
+  color: #800080; /* Changed from sky blue to purple */
+  margin-bottom: 15px;
+}
+
+.commonIcons2 {
+  font-size: 70px;
+  color: #800080; /* Changed from sky blue to purple */
+  margin-bottom: 15px;
+}
+
+.services__box {
+  background: #181313;
+  transition: all 0.5s linear;
+}
+
+.services__box:hover {
+  background: #800080; /* Changed from sky blue to purple */
+}
+
+.services__box:hover .commonIcons {
+  color: #fff;
+}
+
+.services__box:hover .commonIcons2 {
+  color: #fff;
+}
+
+.services__box:hover .btn {
+  background-color: #1f1a1a;
+  color: white;
+}
+
+.event__box {
+  background: #1a1a1a;
+  transition: all 0.5s linear;
+}
+
+.event__box:hover {
+  background: #800080; /* Changed from sky blue to purple */
+}
+
+.event__box:hover .commonIcons {
+  color: #fff;
+}
+
+.event__box:hover .btn {
+  background-color: #1f1a1a;
+  color: #d3d3d3; /* Light gray */
+}
+
+.event__box:hover .table-bordered {
+  background-color: #1f1a1a;
+  color: #d3d3d3; /* Light gray */
+}
+
+.list-items {
+  width: 90%;
+  margin: 0;
+  position: absolute;
+  left: 5%;
+}
+
+.btn {
+  transition: all 0.5s linear;
+}
+
+.backgrnd {
+  height: 200%;
+}
+
+.backgrndwc {
+  height: 180%;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-gap: 10px;
+}
+
+.scrollable {
+  height: 365px;
+  scrollbar-color: #800080 #ffffff; /* Purple scrollbar with white track */
+  overflow: hidden;
+  overflow-y: scroll;
+}
+
+.top-fix {
+  background: rgb(255, 255, 255);
+  color: #d3d3d3; /* Light gray */
+  border-bottom: solid white 2px;
+  position: sticky;
+  top: 0;
+}
+
+.accordian-back {
+  background: #800080; /* Changed from sky blue to purple */
+  color: white;
+}
